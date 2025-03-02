@@ -1,0 +1,83 @@
+html, body {
+    /* background-color: gray; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-family: Verdana; 
+}
+
+button {
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 720px;
+}
+
+.rightBtns {
+    display: flex;
+    gap: 10px;
+}
+
+.leftBtns {
+    border: 2px solid rgb(188, 186, 186);
+    box-shadow: 2px 2px 2px 2px;
+    padding: 8px;
+    display: flex;
+    gap: 10px;
+}
+.save {
+    background-color: rgb(90, 130, 239);
+    color: beige;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.reset {
+    background-color: rgb(220, 103, 103);
+    color: beige;
+}
+
+.rainbow {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    color: beige;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.grid {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 720px;
+    width: 720px;
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid black;
+    flex: 1 0 auto;
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 400px;
+ }
+
+.gridSize {
+    text-align: center;
+}
